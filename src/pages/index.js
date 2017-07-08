@@ -7,4 +7,9 @@ export default () =>
     <Link to="/about/" style={{ display: block }}>
       About Page
     </Link>
+    <form action="/thankyou/">
+      <input type="text" name="name" placeholder="name" />
+      <input type="text" name="email" placeholder="email" />
+      <button type="submit">Submit </button>
+    </form>
   </div>
