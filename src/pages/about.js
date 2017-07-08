@@ -3,8 +3,8 @@ import Link from 'gatsby-link'
 
 export default () =>
   <div>
-    Hi This is the home page.
-    <Link to="/about/" style={{ display: block }}>
-      About Page
+    Hi You are at About Page.
+    <Link to="/" style={{ display: block }}>
+      Home
     </Link>
   </div>
